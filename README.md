@@ -6,11 +6,11 @@
 <a href="https://github.com/lucasDaru">
   <img align="left" alt="D@rú Github" width="100px" src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white" />
 </a>
-<a href="https://www.instagram.com/lucasdmiguel/">
-  <img align="left" alt="D@rú Instagram" width="100px" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
 <a href="https://www.hackerrank.com/lucas_prof?hr_r=1">
   <img align="left" alt="D@rú hackerrank" width="100px" src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=black" />
+</a>
+<a href="https://www.instagram.com/lucasdmiguel/">
+  <img align="left" alt="D@rú Instagram" width="100px" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
 <br><br>
 ![](https://github.com/amandewatnitrr/amandewatnitrr/blob/main/header_.png)
