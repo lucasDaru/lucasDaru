@@ -33,10 +33,10 @@
 <div>
 <h3><b><samp>Previous Experiences:</samp></b></h3>
 - 👷 <b>BSI Tecnologia - (June/2015 - Sep/2016) @ Senior Software Engineer .Net </b><br>
-- 🔬 <b>Hewlett-Packard - (May/2014 - June/2015) @ Senior Software Engineer .Net </b><br>
+- 🖨 <b>Hewlett-Packard - (May/2014 - June/2015) @ Senior Software Engineer .Net </b><br>
 - 🕵🏻 <b>SMA Tecnologia - (Nov/2013 - May/2014) @ Pleno/Senior Software Engineer .Net </b><br>
 - 👨🏾‍💻 <b>Wise House Engenharia de Sistemas - (Oct/2010 - Nov/2013) @ Junior Software Engineer .Net </b><br>
-- ✍🏻 <b>Microcamp - (April/2004 - July/2010) @ Teacher and Technical coordinator</b><br>
+- 👨‍🏫 <b>Microcamp - (April/2004 - July/2010) @ Teacher and Technical coordinator</b><br>
 </div>
 
 ##
