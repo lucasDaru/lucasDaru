@@ -23,7 +23,7 @@
 ## <p align="center"><h4 align="center"><samp> An Golang | Java | .Net Developer, Cloud AWS Architecture ☁  & A Competitive Programmer </samp></h4></p>
 
 <div>
-<img align="right" alt="" src="https://github.com/lucasDaru/lucasDaru/blob/main/terminal.gif" width="40%"/>
+<img align="right" alt="" src="https://github.com/lucasDaru/lucasDaru/blob/main/star.gif" width="40%"/>
   <br>
 <h3><b><samp>Experiences:</samp></b></h3>
 - 💧 <samp><b>Rain Instant Pay (2022 - present) @ StartUp Allows employees to take back control over their financial -  Senior Software Engineer Golang|Python </b></samp><br>
