@@ -13,12 +13,12 @@
   <img align="left" alt="D@rú Instagram" width="100px" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
 <br><br>
-![](https://github.com/lucasDaru/lucasDaru2/blob/main/header_.png)
+![](https://github.com/lucasDaru/lucasDaru/blob/main/header_.png)
 
 ## <p align="center"><h4 align="center"><samp> An Golang | Java | .Net Developer, Cloud AWS Architecture ☁  & A Competitive Programmer </samp></h4></p>
 
 <div>
-<img align="right" alt="" src="https://github.com/lucasDaru/lucasDaru2/blob/main/terminal.gif" width="40%"/>
+<img align="right" alt="" src="https://github.com/lucasDaru/lucasDaru/blob/main/terminal.gif" width="40%"/>
   <br>
 <h3><b><samp>Experiences:</samp></b></h3>
 - 💧 <samp><b>Rain Instant Pay (2022 - present) @ StartUp Allows employees to take back control over their financial -  Senior Software Engineer Golang|Python </b></samp><br>
@@ -56,17 +56,17 @@
 ![Java](https://img.shields.io/badge/Java-013243?style=flat-square&logo=Java&logoColor=white)
 
 <span>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/c.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/arduino-1.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/raspberry-pi.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/php-1.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/python-5.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/mysql-6.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/readme.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/html.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/css.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/javascript.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/wolfram-language.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/c.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/arduino-1.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/raspberry-pi.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/php-1.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/python-5.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/mysql-6.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/readme.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/html.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/css.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/javascript.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/wolfram-language.svg" alt="drawing" width="50"/>
   </span>
     
 ##
@@ -85,14 +85,14 @@
 ![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=flat-square&logo=CodeChef&logoColor=white)
   
 <span>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/bootstrap-5-1.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/firebase-1.svg" alt="drawing" width="30"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/git-icon.svg" alt="drawing" width="40"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/Octocat.png" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/google-cloud-1.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/hackerrank.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/visual-studio-code.svg" alt="drawing" width="40"/>
-<img src="https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/heroku-4.svg" alt="drawing" width="40"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/bootstrap-5-1.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/firebase-1.svg" alt="drawing" width="30"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/git-icon.svg" alt="drawing" width="40"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/Octocat.png" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/google-cloud-1.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/hackerrank.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/visual-studio-code.svg" alt="drawing" width="40"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/heroku-4.svg" alt="drawing" width="40"/>
 </span>
 <hr> 
   
@@ -138,4 +138,4 @@
   
 ![snake svg](https://github.com/adityamangal1/adityamangal1/blob/output/github-contribution-grid-snake.svg)
   
-![](https://github.com/lucasDaru/lucasDaru2/blob/main/imgs/bottom_header.svg)
+![](https://github.com/lucasDaru/lucasDaru/blob/main/imgs/bottom_header.svg)
