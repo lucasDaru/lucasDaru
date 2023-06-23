@@ -21,40 +21,11 @@
 <img align="right" alt="" src="https://github.com/lucasDaru/lucasDaru2/blob/main/terminal.gif" width="40%"/>
   <br>
 
-- 👷 <samp><b>Rain Instant Pay (2022 - present) @ StartUp Allows employees to take back control over their financial -  Senior Software Engineer Golang|Python </b>
-- 👷 <samp><b>Tas Group (2021 - 2022) @ Specialized in software solutions for electronic money - Senior Software Engineer Java </b>
-- 👷 <samp><b>Bank Itaú-Unibanco - (2020  - 2021) @ The largest private bank in Brazil, the largest financial institution in Latin America - Tech Lead - Software Engineer Java </b>
-- 👷 <samp><b>Koin-Pós Pago (2016 - 2020) @ StartUp First payment fintech for installment purchases without a card. Sold Decolar - Senior Software Engineer Java </b>
+- 💧 <samp><b>Rain Instant Pay (2022 - present) @ StartUp Allows employees to take back control over their financial -  Senior Software Engineer Golang|Python </b>
+- 💳 <samp><b>Tas Group (2021 - 2022) @ Specialized in software solutions for electronic money - Senior Software Engineer Java </b>
+- 🏦 <samp><b>Bank Itaú-Unibanco - (2020  - 2021) @ The largest private bank in Brazil, the largest financial institution in Latin America - Tech Lead - Software Engineer Java </b>
+- 🪙 <samp><b>Koin-Pós Pago (2016 - 2020) @ StartUp First payment fintech for installment purchases without a card. Sold Decolar - Senior Software Engineer Java </b>
 
-
-
-Senior Software Engineer, Tas Group - 06/2021  - 01/2022  – São Paulo/SP, Brazil
-TAS Group specialized in software solutions for electronic money, payment systems, capital markets, and extended enterprise. It has been listed on the Italian Stock Exchange since May 2000. TAS Group is the trading name of TAS S.p.A. - controlled by OWL S.p.A. - and its subsidiaries: Global Payments S.p.A., MANTICA ITALIA S.r.l. and TAS International S.A. The latter also controls TAS France SASU, TAS Iberia S.L.U., TAS Germany GmbH, TAS Eastern Europe d.o.o, Infraxis AG, TAS Brasil LTDA and TAS USA Inc..
-
-
-Tech Lead - Software Engineer, Itaú-Unibanco - 07/2020  - 06/2021 – São Paulo/SP, Brazil
-Itaú Unibanco is the largest private bank in Brazil, the largest financial institution in Latin America, and one of the largest in the world. The brand is considered for the 16th consecutive year as the most valuable in the country, according to the Interbrand ranking, among other important recognitions. 
-Software Engineer, Startup Fintech Koin-Pós Pago - October/2016 - June/2020 – São Paulo/SP, Brazil.
-Startup - First payment fintech for installment purchases without a card. With an easy and practical experience, we analyze purchase to purchase, combining information uniquely and differently from traditional financial institutions.
-
-
-PREVIOUS EXPERIENCES
-⇢ Senior Analyst .Net Web Developer, BSI Tecnologia - June/2015  - September/2016 – São Paulo/SP, Brazil
-⇢ Senior Analyst .Net Web Developer, Hewlett-Packard - May/2014  - June/2015 – São Paulo/SP, Brazil
-⇢ Senior Analyst .Net Web Developer, SMA TECNOLOGIA - November/2013  - May/2014 – São Paulo/SP, Brazil
-⇢ Junior/Pleno Analyst Web Developer, Wise House Engenharia de Sistemas - October/2010 - November/2013  – São Paulo/SP, Brazil
-⇢ Teacher and Technical coordinator, Microcamp - April/2004 - July/2010  – São Paulo/SP, Brazil
-
-- 👷 <samp><b>Edison Engineer @ GE Healthcare</b>
-- 👨‍🎓 <samp><b>B.Tech in Electrical Engrineering(2018-2022) from National Institute of Technology Raipur - 8.51 CPI</b>
-- 🔭 <samp>Diploma in Computer Applications from C.V.Raman University(2020) - 83.85%
-- 🧑🏽 <samp><b>Founder of Hack Club NITRR (October 2021 - Present)</b>
-- 🥇 <samp>Runner Up Robothon_1.0(March 2020) || Runner Up Apscript Hackathon(Febrruary 2021) || E-Ujjwala Hackathon Finalists(August 2020) || Codeutsava 5.0 Winner (Feb 2022)
-- 💼 <samp>I’m looking for **Full-Time** Opportunities/roles.
-- 💬 <samp>Ask me about IoT/Arduino/Raspberry-Pi/PHP-Dev/Cloud Architecture
-- 🤔 <samp>I’m looking for help with how to excel in Competitive Programming
-- ⚡ <samp>Fun fact: I am kinda boring and sometimes dumb though, but I am a determined guy.
-- ♟ <samp>I play a lot of chess, and I am 1400-1500 rated on chess.com.
 </div>
 
 ##
