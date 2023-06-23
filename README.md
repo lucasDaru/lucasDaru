@@ -9,7 +9,6 @@
 <a href="https://www.instagram.com/lucasdmiguel/">
   <img align="left" alt="D@rú Instagram" width="100px" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
-<br><br>
 <a href="https://www.hackerrank.com/lucas_prof?hr_r=1">
   <img align="left" alt="D@rú hackerrank" width="100px" src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=black" />
 </a>
