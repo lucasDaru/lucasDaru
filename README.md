@@ -62,32 +62,26 @@
 
 <span>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/Go-Logo_Aqua.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/arduino-1.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/raspberry-pi.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/php-1.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/python-5.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/mysql-6.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/readme.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/html.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/css.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/javascript.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/wolfram-language.svg" alt="drawing" width="50"/>
-  </span>
+</span>
     
 ##
 <h3><b><samp>Tools and Platform</samp></b></h3>
 
-![SmartThings](https://img.shields.io/badge/SmartThings-777BB4?style=flat-square&logo=SmartThings&logoColor=white)
+![Amazon Web Services](https://img.shields.io/badge/aws-777BB4?style=flat-square&logo=aws&logoColor=white)
 ![Google Cloud Platform](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![Qwiklabs](https://img.shields.io/badge/Qwiklabs-F5CD0E?style=flat-square&logo=Qwiklabs&logoColor=800000)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)
-![Firebase](https://img.shields.io/badge/Firebase-ffcb2c?style=flat-square&logo=Firebase&logoColor=DD1100)
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=Heroku&logoColor=white)
 ![BootStrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat-square&logo=Visual-Studio-Code&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white)
 ![HackerRank](https://img.shields.io/badge/HackerRank-107C10?style=flat-square&logo=HackerRank&logoColor=black)
-![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=flat-square&logo=CodeChef&logoColor=white)
+![GoLand](https://img.shields.io/badge/GoLand-5B4638?style=flat-square&logo=GoLand&logoColor=white)
   
 <span>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/bootstrap-5-1.svg" alt="drawing" width="50"/>
@@ -99,32 +93,6 @@
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/visual-studio-code.svg" alt="drawing" width="40"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/heroku-4.svg" alt="drawing" width="40"/>
 </span>
-<hr> 
-  
-<h3><b><samp>Check out my Repositories</samp></b></h3>
-
-<span>
-<a href="https://github.com/amandewatnitrr/A-10-NEXA">
-  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=amandewatnitrr&repo=A-10-NEXA" />
-</a>
-<a href="https://github.com/amandewatnitrr/Aztecs-LogiTraffic">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=amandewatnitrr&repo=Aztecs-LogiTraffic" />
-</a>
-  </span>
-  
-<hr>
-  
-### ✍️ Blog posts
-<!-- BLOG-POST-LIST:START -->
-- [Making a Pulse Oximeter using Arduino](https://medium.com/@amandewatnitrr/making-a-pulse-oximeter-using-arduino-e0a7f21b2a5e?source=rss-e69b5e669025------2)
-- [Setting Up the Headless Raspberry Pi](https://medium.com/@amandewatnitrr/setting-up-the-headless-raspberry-pi-bb492866ee5f?source=rss-e69b5e669025------2)
-- [Getting Started with Content Writing and Blog Writing](https://medium.com/@amandewatnitrr/getting-started-with-content-writing-and-blog-writing-52cc6a7440b4?source=rss-e69b5e669025------2)
-- [What you need to know as a Hardware and IoT Engineer?? How to Begin...](https://medium.com/@amandewatnitrr/what-you-need-to-know-as-a-hardware-and-iot-engineer-how-to-begin-f85ef44b06a?source=rss-e69b5e669025------2)
-- [My First Hackathon...Summed Up](https://medium.com/@amandewatnitrr/my-first-hackathon-summed-up-48187d27e513?source=rss-e69b5e669025------2)
-<!-- BLOG-POST-LIST:END -->
-
-  
-<hr>
   
 <br>
   
@@ -136,11 +104,5 @@
 </p>
 
 ### 🔖 Holopins:
-  
-[![@amandewatnitrr's Holopin board](https://holopin.io/api/user/board?user=amandewatnitrr)](https://holopin.io/@amandewatnitrr)
-
-<br>  
-  
-![snake svg](https://github.com/adityamangal1/adityamangal1/blob/output/github-contribution-grid-snake.svg)
   
 ![](https://github.com/lucasDaru/lucasDaru/blob/main/imgs/bottom_header.svg)
