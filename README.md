@@ -21,17 +21,17 @@
 <img align="right" alt="" src="https://github.com/lucasDaru/lucasDaru2/blob/main/terminal.gif" width="40%"/>
   <br>
 
-- 👷 <samp><b>Rain Instant Pay (2022 - present) @ Senior Software Engineer Golang|Python </b><br />
-        <b>Rain is StartUP Allows employees to take back control over their financial lives and receive the money they’ve earned without having to wait until payday. The employers, improve retention, productivity, and recruiting. Rain to bring this social-impact model to millions of Americans.</b><br />
-- 👷 <samp><b>Tas Group (2021 - 2022) @ Senior Software Engineer Java </b>
-- 👷 <samp><b>Rain Instant Pay (2022 - present) @ Senior Software Engineer Golang|Python </b>
-- 👷 <samp><b>Rain Instant Pay (2022 - present) @ Senior Software Engineer Golang|Python </b>
-- 👷 <samp><b>Rain Instant Pay (2022 - present) @ Senior Software Engineer Golang|Python </b>
+- 👷 <samp><b>Rain Instant Pay (2022 - present) @ StartUp Allows employees to take back control over their financial -  Senior Software Engineer Golang|Python </b>
+- 👷 <samp><b>Tas Group (2021 - 2022) @ Specialized in software solutions for electronic money - Senior Software Engineer Java </b>
+- 👷 <samp><b>Bank Itaú-Unibanco - (2020  - 2021) @ The largest private bank in Brazil, the largest financial institution in Latin America - Tech Lead - Software Engineer Java </b>
+- 👷 <samp><b>Koin-Pós Pago (2016 - 2020) @ StartUp First payment fintech for installment purchases without a card. Sold Decolar - Senior Software Engineer Java </b>
 
 
 
 Senior Software Engineer, Tas Group - 06/2021  - 01/2022  – São Paulo/SP, Brazil
-TAS Group specialized in software solutions for electronic money, payment systems, capital markets, and extended enterprise. It has been listed on the Italian Stock Exchange since May 2000. TAS Group is the trading name of TAS S.p.A. - controlled by OWL S.p.A. - and its subsidiaries: Global Payments S.p.A., MANTICA ITALIA S.r.l. and TAS International S.A. The latter also controls TAS France SASU, TAS Iberia S.L.U., TAS Germany GmbH, TAS Eastern Europe d.o.o, Infraxis AG, TAS Brasil LTDA and TAS USA Inc.. 
+TAS Group specialized in software solutions for electronic money, payment systems, capital markets, and extended enterprise. It has been listed on the Italian Stock Exchange since May 2000. TAS Group is the trading name of TAS S.p.A. - controlled by OWL S.p.A. - and its subsidiaries: Global Payments S.p.A., MANTICA ITALIA S.r.l. and TAS International S.A. The latter also controls TAS France SASU, TAS Iberia S.L.U., TAS Germany GmbH, TAS Eastern Europe d.o.o, Infraxis AG, TAS Brasil LTDA and TAS USA Inc..
+
+
 Tech Lead - Software Engineer, Itaú-Unibanco - 07/2020  - 06/2021 – São Paulo/SP, Brazil
 Itaú Unibanco is the largest private bank in Brazil, the largest financial institution in Latin America, and one of the largest in the world. The brand is considered for the 16th consecutive year as the most valuable in the country, according to the Interbrand ranking, among other important recognitions. 
 Software Engineer, Startup Fintech Koin-Pós Pago - October/2016 - June/2020 – São Paulo/SP, Brazil.
