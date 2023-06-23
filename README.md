@@ -12,6 +12,11 @@
 <a href="https://www.instagram.com/lucasdmiguel/">
   <img align="left" alt="D@rú Instagram" width="100px" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
+<a href="mailto:lucas.prof@gmail.com">
+  <img align="left" alt="D@rú Gmail" width="100px" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+
 <br><br>
 ![](https://github.com/lucasDaru/lucasDaru/blob/main/header_.png)
 
@@ -42,18 +47,18 @@
 ##
 <h3><b><samp>Skills and Languages</samp></b></h3>
 
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=Arduino&logoColor=white)
-![Rapspberry Pi](https://img.shields.io/badge/Raspberry_pi-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Wolfram](https://img.shields.io/badge/Wolfram-DD1100?style=flat-square&logo=Wolfram&logoColor=white)
-![C](https://img.shields.io/badge/C-27338e?style=flat-square&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)
+![Golang](https://img.shields.io/badge/Golang-00AAAA?style=flat-square&logo=go&logoColor=white)
+![Java](https://img.shields.io/badge/Java-013243?style=flat-square&logo=Java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-AA00AB?style=flat-square&logo=Python&logoColor=white)
+![.Net](https://img.shields.io/badge/.Net-0000AA?style=flat-square&logo=.NetlogoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0022DD?style=flat-square&logo=PostgreSQL&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white)
+![SQLServer](https://img.shields.io/badge/SQLServer-FFDD00?style=flat-square&logo=SQLServer&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-DD79A1?style=flat-square&logo=Oracle&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white)
-![Matlab](https://img.shields.io/badge/MATLAB-800000?style=flat-square&logo=MathWorks&logoColor=white)
-![Java](https://img.shields.io/badge/Java-013243?style=flat-square&logo=Java&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-800000?style=flat-square&logo=TypeScript&logoColor=white)
+
 
 <span>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/c.svg" alt="drawing" width="50"/>
