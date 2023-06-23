@@ -61,7 +61,7 @@
 
 
 <span>
-<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/c.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/Go-Logo_Aqua.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/arduino-1.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/raspberry-pi.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/php-1.svg" alt="drawing" width="50"/>
