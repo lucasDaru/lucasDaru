@@ -1,4 +1,4 @@
-# Hey Everyone! I'm [Lucas Darú Miguel D@rú!](https://github.com/lucasDaru)
+# Hey Everyone! I'm [Lucas D@rú Miguel :)](https://github.com/lucasDaru)
 <br><br>
 <a href="https://www.linkedin.com/in/lucas-daru-miguel-642901233/">
   <img align="left" alt="D@rú Linkdein" width="100px" src="https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=Linkedin&logoColor=white" />
