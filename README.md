@@ -15,7 +15,7 @@
 <br><br>
 ![](https://github.com/lucasDaru/lucasDaru2/blob/main/header_.png)
 
-## <p align="center"><h4 align="center"><samp> An IoT Developer, An Open Source Contributor, Cloud Architecture ☁  & A Competitive Programmer </samp></h4></p>
+## <p align="center"><h4 align="center"><samp> An Golang | Java | .Net Developer, Cloud AWS Architecture ☁  & A Competitive Programmer </samp></h4></p>
 
 <div>
 <img align="right" alt="" src="https://github.com/lucasDaru/lucasDaru2/blob/main/terminal.gif" width="40%"/>
@@ -24,28 +24,19 @@
 - 💧 <samp><b>Rain Instant Pay (2022 - present) @ StartUp Allows employees to take back control over their financial -  Senior Software Engineer Golang|Python </b>
 - 💳 <samp><b>Tas Group (2021 - 2022) @ Specialized in software solutions for electronic money - Senior Software Engineer Java </b>
 - 🏦 <samp><b>Bank Itaú-Unibanco - (2020  - 2021) @ The largest private bank in Brazil, the largest financial institution in Latin America - Tech Lead - Software Engineer Java </b>
-- 🪙 <samp><b>Koin-Pós Pago (2016 - 2020) @ StartUp First payment fintech for installment purchases without a card. Sold Decolar - Senior Software Engineer Java </b>
+- 🪙 <samp><b>Koin-Pós Pago (2016 - 2020) @ StartUp First payment fintech for installment purchases without a card. Sold Decolar - Senior Software Engineer Java|.Net </b>
 
 </div>
 
 ##
 
 <div>
-<h3><b><samp>Experiences:</samp></b></h3>
-- 👷 <b>Edison Engineer @ GE Healthcare</b><br>
-- 🔬 <b>Ex-Research Student at Wolfram Summer School, 2021 (Education and Innovation Track)</b><br>
-- 🕵🏻 <b>Summer Research Intern at National Institute of Technology Raipur, Chhattisgarh(May 2020 - Aug 2020)</b><br>
-- 👨🏾‍💻 <b>Embedded IoT Intern at SVA Robotics(Sep 2020 - Oct 2020)</b><br>
-- ✍🏻 Ex-Core Member of IEEE Bombay Section Technical and Professional Committee (August 2020 - May 2022)<br>
-- 👨🏻‍💻 Ex-Head Coordinator at Turing Club of Programmers, NIT Raipur.<br>
-- ☄️ Girlscript Ireland - Training - Game Development(August 2020)<br>
-- ☁ 30 Days of Google Cloud(Cloud Engnieering Track)<br>
-- 👨🏻‍🏫 Mentor at SparkDev UPE FIU (2021)<br>
-- 👨🏻‍🏫 Mentor and Judge at HackOdisha'21<br>
-- 👨🏻‍🏫 Mentor at ShellHacks'21<br>
-- 👨🏻‍🏫 Mentor at HackNITR 3.0<br>
-- 👨🏻‍🏫 Mentor at HackCBS 4.0<br>
-- 👷🏻 Lead Organiser and Speaker at Octafest'21 and Trek The Hill'22<br>
+<h3><b><samp>Previous Experiences:</samp></b></h3>
+- 👷 <b>BSI Tecnologia - (June/2015 - Sep/2016) @ Senior Software Engineer .Net </b><br>
+- 🔬 <b>Hewlett-Packard - (May/2014 - June/2015) @ Senior Software Engineer .Net </b><br>
+- 🕵🏻 <b>SMA Tecnologia - (Nov/2013 - May/2014) @ Pleno/Senior Software Engineer .Net </b><br>
+- 👨🏾‍💻 <b>Wise House Engenharia de Sistemas - (Oct/2010 - Nov/2013) @ Junior Software Engineer .Net </b><br>
+- ✍🏻 <b>Microcamp - (April/2004 - July/2010) @ Teacher and Technical coordinator</b><br>
 </div>
 
 ##
