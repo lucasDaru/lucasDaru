@@ -87,6 +87,7 @@
 ![GoLand](https://img.shields.io/badge/GoLand-5B4638?style=flat-square&logo=GoLand&logoColor=white)
   
 <span>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/aws-2.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/bootstrap-5-1.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/firebase-1.svg" alt="drawing" width="30"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/git-icon.svg" alt="drawing" width="40"/>
