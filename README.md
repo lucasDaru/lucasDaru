@@ -96,7 +96,7 @@
 <span>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/aws-2.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/bootstrap-5-1.svg" alt="drawing" width="50"/>
-<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/kafka.svg" alt="drawing" width="50"/>
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/kafka.svg" style="fill: green;" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/splunk.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/redis.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/grafana.svg" alt="drawing" width="50"/>
