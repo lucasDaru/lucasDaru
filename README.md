@@ -26,7 +26,7 @@
 <img align="right" alt="" src="https://github.com/lucasDaru/lucasDaru/blob/main/star.gif" width="25%"/>
   <br>
 <h3><b><samp>Experiences:</samp></b></h3>
-- 💧 <samp><b>Rain Instant Pay (2022 - present) @ StartUp Allows employees to take back control over their financial -  Senior Software Engineer Golang|Python </b></samp><br>
+- 💧 <samp><b>Rain Instant Pay (2022 - 2024) @ StartUp Allows employees to take back control over their financial -  Senior Software Engineer Golang|Python </b></samp><br>
 - 💳 <samp><b>Tas Group (2021 - 2022) @ Specialized in software solutions for electronic money - Senior Software Engineer Java </b></samp><br>
 - 🏦 <samp><b>Bank Itaú-Unibanco - (2020  - 2021) @ The largest private bank in Brazil, the largest financial institution in Latin America - Tech Lead - Software Engineer Java </b></samp><br>
 - 🪙 <samp><b>Koin-Pós Pago (2016 - 2020) @ StartUp First payment fintech for installment purchases without a card. Sold Decolar - Senior Software Engineer Java|.Net </b></samp><br>
