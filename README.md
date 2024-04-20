@@ -20,7 +20,7 @@
 <br><br>
 ![](https://github.com/lucasDaru/lucasDaru/blob/main/header_.png)
 
-## <p align="center"><h4 align="center"><samp> An Golang | Java | .Net Developer, Cloud AWS Architecture ☁  & A Competitive Programmer </samp></h4></p>
+## <p align="center"><h4 align="center"><samp> An Golang | Java | NodeJs Developer, Cloud AWS Architecture ☁  & A Competitive Programmer </samp></h4></p>
 
 <div>
 <img align="right" alt="" src="https://github.com/lucasDaru/lucasDaru/blob/main/star.gif" width="25%"/>
