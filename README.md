@@ -50,7 +50,7 @@
 ![Golang](https://img.shields.io/badge/Golang-00AAAA?style=flat-square&logo=go&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-013243?style=flat-square&logo=Java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-AA00AB?style=flat-square&logo=Python&logoColor=white)
-![NodeJs](https://img.shields.io/badge/.Net-0000AA?style=flat-square&logo=NodeJslogoColor=white)
+![NodeJs](https://img.shields.io/badge/NodeJS-00AA00?style=flat-square&logo=NodeJslogoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0022DD?style=flat-square&logo=PostgreSQL&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white)
 ![SQLServer](https://img.shields.io/badge/SQLServer-FFDD00?style=flat-square&logo=SQLServer&logoColor=white)
@@ -72,7 +72,7 @@
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/html.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/css.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/javascript.svg" alt="drawing" width="50"/>
-
+<img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/nodejs.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/react.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/angular.svg" alt="drawing" width="50"/>
 <img src="https://github.com/lucasDaru/lucasDaru/blob/main/imgs/typescript.svg" alt="drawing" width="50"/>
