@@ -50,7 +50,7 @@
 ![Golang](https://img.shields.io/badge/Golang-00AAAA?style=flat-square&logo=go&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-013243?style=flat-square&logo=Java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-AA00AB?style=flat-square&logo=Python&logoColor=white)
-![.Net](https://img.shields.io/badge/.Net-0000AA?style=flat-square&logo=.NetlogoColor=white)
+![NodeJs](https://img.shields.io/badge/.Net-0000AA?style=flat-square&logo=NodeJslogoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0022DD?style=flat-square&logo=PostgreSQL&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white)
 ![SQLServer](https://img.shields.io/badge/SQLServer-FFDD00?style=flat-square&logo=SQLServer&logoColor=white)
