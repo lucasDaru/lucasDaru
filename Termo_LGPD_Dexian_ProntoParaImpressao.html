@@ -1,0 +1,575 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termo LGPD - Dexian (Pronto para Impressão)</title>
+    <style>
+        /* Reset e Configurações Globais */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #d4d4d4; /* Fundo cinza para destacar as folhas na tela */
+            color: #333;
+            font-size: 12.5px; /* Fonte levemente ajustada para otimizar espaço */
+            -webkit-print-color-adjust: exact; /* Força impressão de cores e backgrounds */
+            print-color-adjust: exact;
+        }
+        
+        .document-wrapper {
+            padding: 40px 0;
+        }
+
+        /* Configuração de cada página A4 */
+        .a4-page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto 30px auto;
+            padding: 20mm 20mm 28mm 20mm;
+            /* Degradê verde limão no canto superior direito esfumaçando para o branco */
+            background: radial-gradient(circle at top right, #cbfb10 0%, #f4fdf0 30%, #ffffff 55%) !important;
+            background-color: #ffffff !important;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            box-sizing: border-box;
+            position: relative;
+            page-break-after: always;
+            break-after: page;
+        }
+
+        /* Rodapé com numeração */
+        .page-footer {
+            position: absolute;
+            left: 20mm;
+            right: 20mm;
+            bottom: 10mm;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            font-size: 10px;
+            line-height: 1.35;
+            color: #555;
+            border-top: 1px solid #d4e8c1;
+            padding-top: 6px;
+        }
+        .page-footer .footer-left {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+        }
+        .page-footer .footer-row {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+        .page-footer .footer-sep {
+            color: #8dae00;
+            font-weight: bold;
+        }
+        .page-footer .footer-page {
+            white-space: nowrap;
+            font-weight: bold;
+            color: #668000;
+            align-self: flex-end;
+        }
+        .a4-page.page-1 .page-footer {
+            left: 18mm;
+            right: 18mm;
+        }
+        
+        .a4-page:last-child {
+            page-break-after: auto;
+            break-after: auto;
+            margin-bottom: 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 15px;
+            color: #8dae00;
+        }
+
+        /* Configuração do Grid com Bordas de Separação */
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-bottom: 14px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid #d4e8c1;
+            min-width: 0; /* evita overflow horizontal no grid */
+        }
+        .row.no-border {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .br-col,
+        .us-col {
+            min-width: 0; /* permite encolher texto/inputs dentro da coluna */
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            text-align: justify;
+        }
+        .br-col {
+            padding-right: 16px;
+            border-right: 1px solid #d4e8c1;
+        }
+        .us-col {
+            padding-left: 16px;
+        }
+
+        p {
+            margin-top: 0.45em;
+            margin-bottom: 0.45em;
+        }
+        
+        h2 {
+            font-size: 13px;
+            text-align: center;
+            margin-top: 6px;
+            margin-bottom: 10px;
+            color: #668000; 
+        }
+        ul {
+            padding-left: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        li {
+            margin-bottom: 3px;
+        }
+        
+        /* Campos Interativos */
+        input[type="text"] {
+            border: none;
+            border-bottom: 1px solid #333;
+            background: rgba(255, 255, 255, 0.4); 
+            font-family: inherit;
+            font-size: inherit;
+            padding: 2px 5px;
+            color: #000;
+            font-weight: bold;
+            box-sizing: border-box;
+            max-width: 100%;
+            transition: background-color 0.2s;
+        }
+        input:focus {
+            outline: none;
+            border-bottom: 2px solid #8dae00;
+            background: rgba(255, 255, 255, 0.9);
+        }
+        .input-razao {
+            width: 100%;
+            max-width: 100%;
+            font-size: 11.5px;
+        }
+        .inline-input {
+            width: 130px;
+            max-width: 45%;
+        }
+        .addr-line {
+            width: 100%;
+            max-width: 100%;
+            min-width: 55%;
+            font-size: 11.5px;
+        }
+
+        /* Página 1: espaçamento mais compacto para caber na área imprimível */
+        .a4-page.page-1 {
+            padding: 16mm 18mm 26mm 18mm;
+        }
+        .a4-page.page-1 .header {
+            margin-bottom: 14px;
+            font-size: 14px;
+            line-height: 1.35;
+        }
+        .a4-page.page-1 .row {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+        }
+        .a4-page.page-1 p {
+            margin-top: 0.35em;
+            margin-bottom: 0.35em;
+            line-height: 1.45;
+        }
+        .a4-page.page-1 h2 {
+            margin-top: 4px;
+            margin-bottom: 8px;
+            font-size: 12.5px;
+        }
+        
+        /* Assinaturas */
+        .sig-section {
+            margin-top: 20px;
+        }
+        .sig-line {
+            border-top: 1px solid #000;
+            margin-top: 40px;
+            padding-top: 5px;
+            text-align: center;
+            font-weight: bold;
+            width: 90%;
+        }
+        .form-group {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .form-group label {
+            width: 50px;
+            font-weight: bold;
+        }
+        .form-group input {
+            flex: 1;
+            margin-right: 10%;
+        }
+
+        /* Regras Específicas para Impressão */
+        @media print {
+            @page {
+                size: A4;
+                margin: 0; /* Remove as margens do navegador para o background preencher tudo */
+            }
+            body {
+                background-color: transparent !important;
+                padding: 0;
+            }
+            .document-wrapper {
+                padding: 0;
+            }
+            .a4-page {
+                margin: 0 !important;
+                box-shadow: none !important;
+                width: 210mm !important;
+                max-width: 210mm !important;
+                height: 297mm !important; /* Força cada página a ocupar exatamente 1 folha A4 */
+                max-height: 297mm !important;
+                overflow: hidden; /* impede conteúdo de sair das bordas da folha */
+                border-radius: 0;
+                padding: 18mm 18mm 26mm 18mm !important;
+                page-break-after: always;
+                break-after: page;
+            }
+            .a4-page.page-1 {
+                padding: 14mm 16mm 24mm 16mm !important;
+            }
+            .a4-page .page-footer {
+                left: 18mm;
+                right: 18mm;
+                bottom: 9mm;
+            }
+            .a4-page.page-1 .page-footer {
+                left: 16mm;
+                right: 16mm;
+            }
+            input[type="text"] {
+                background: transparent !important; /* Remove fundo cinza do input na impressão */
+                color: #000 !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="document-wrapper">
+
+    <!-- PÁGINA 1 -->
+    <div class="a4-page page-1">
+        <div class="header">
+            1 POLÍTICA DE USO DE DADOS DEXIAN (CONTRACTORS).
+        </div>
+
+        <div class="row">
+            <div class="br-col">
+                <h2>PRELIMINARMENTE</h2>
+                <p>O presente documento tem por finalidade registrar a manifestação livre e inequívoca, em que o TITULAR, enquanto titular de dados pessoais concorda com o tratamento e transferência de seus dados para finalidade específica (homologação de parceiro de negócio), em conformidade com a Lei nº 13.709 – Lei Geral de Proteção de Dados Pessoais (LGPD).</p>
+                <p>
+                    <input type="text" class="sync-entity input-razao" placeholder="[RAZÃO SOCIAL]">, pessoa jurídica de direito privado, devidamente inscrita no CNPJ/MF sob no <input type="text" class="sync-cnpj inline-input" placeholder="[CNPJ]">, com sede e foro à <input type="text" class="sync-addr addr-line" placeholder="[ENDEREÇO]">, autorizo a utilização, tratamento e transferência de meus dados pessoais, desde a coleta, produção, recepção, classificação, utilização, acesso, transmissão, reprodução, arquivamento, processamento, armazenamento, eliminação, avaliação ou controle da informação.
+                </p>
+            </div>
+            <div class="us-col">
+                <h2>I - PRELIMINARY</h2>
+                <p>The purpose of this document is to register the free and unambiguous statement, in which the CONTRACTOR, as the holder of personal data, agrees with the processing and transferring of their personal data for a specific purpose (contractor validation), in accordance with Law No. 13.709 – General Law of Personal Data Protection (LGPD).</p>
+                <p>
+                    <input type="text" class="sync-entity input-razao" placeholder="[ENTITY NAME]">, legal entity governed by private law, duly registered with the CNPJ/MF (Tax ID) under no <input type="text" class="sync-cnpj inline-input" placeholder="[TAX ID]">, with headquarters and venue at <input type="text" class="sync-addr addr-line" placeholder="[ADDRESS]">, I authorize the use, treatment and transfering of my personal data, from the collection, production, reception, classification, use, access, reproduction, transmission, processing, archiving, storage, elimination, evaluation or control of information.
+                </p>
+            </div>
+        </div>
+
+        <div class="row no-border">
+            <div class="br-col">
+                <h2>I - OBJETIVO DO PROCESSAMENTO DE DADOS PESSOAIS E SENSÍVEIS</h2>
+                <p>1.1. A controladora realizará o tratamento de dados pessoais, indicados na Seção II do presente termo de consentimento, com a finalidade de dar seguimento no procedimento de homologação de parceiro de negócios, onde poderá prestar serviço para Dexian do Brasil Serviços de Tecnologia Ltda. ou suas afiliadas.</p>
+            </div>
+            <div class="us-col">
+                <h2>I - THE PURPOSE OF PROCESSING PERSONAL DATA</h2>
+                <p>1.1. The data controller will process my data outlined in Section II of this consent form for the purposes of the validation of contractors which may provide services for Dexian do Brasil Serviços de Tecnologia Ltda. or its affiliate companies.</p>
+            </div>
+        </div>
+
+        <footer class="page-footer">
+            <div class="footer-left">
+                <div class="footer-row">Recursos Humanos. <span class="footer-sep">|</span></div>
+                <div class="footer-row">dexian.com <span class="footer-sep">|</span></div>
+            </div>
+            <div class="footer-page">pag 1/4</div>
+        </footer>
+    </div>
+
+    <!-- PÁGINA 2 -->
+    <div class="a4-page">
+        <div class="row">
+            <div class="br-col">
+                <h2>II - ESCOPO DO PROCESSAMENTO DE DADOS</h2>
+                <p>Em razão da finalidade de cada tratamento de dados, que podem ocorrer em razão de processo seletivo, incluindo eventuais verificações necessárias para a prestação de serviços, a Dexian como controladora dos dados, fica autorizada a tomar decisões referentes ao tratamento e a realizar o tratamento dos seguintes dados pessoais do Titular:</p>
+                <ul>
+                    <li>Razão Social.</li>
+                    <li>CNPJ.</li>
+                    <li>Resultados financeiros.</li>
+                    <li>Nome completo dos sócios.</li>
+                    <li>Data de nascimento dos sócios.</li>
+                    <li>Número e imagem da Carteira de Identidade (RG) dos sócios.</li>
+                    <li>Número e imagem do Cadastro de Pessoas Físicas (CPF).</li>
+                    <li>Número e imagem da Carteira Nacional de Habilitação (CNH).</li>
+                    <li>Fotografia 3x4.</li>
+                    <li>Estado civil.</li>
+                    <li>Nível de instrução ou escolaridade.</li>
+                    <li>Endereço completo.</li>
+                    <li>Números de telefone, WhatsApp e endereços de e-mail.</li>
+                    <li>Banco, agência e número de contas bancárias.</li>
+                    <li>Bandeira, número, validade e código de cartões de crédito corporativo.</li>
+                    <li>Nome de usuário e senha específicos para uso dos serviços do Controlador.</li>
+                    <li>Comunicação, verbal e escrita, mantida entre o Titular e o Controlador.</li>
+                    <li>Número e imagem de passaporte.</li>
+                    <li>Currículo profissional.</li>
+                    <li>Histórico de antecedentes.</li>
+                    <li>Nome dos pais.</li>
+                    <li>Outros dados informados de livre, consciente e manifesta vontade pelo prestador de serviços, que possam identificar direta ou indiretamente as pessoas relacionadas aos dados.</li>
+                </ul>
+            </div>
+            <div class="us-col">
+                <h2>II - THE SCOPE OF PROCESSING THE DATA</h2>
+                <p>Due to the purpose of each data processing, which may occur due to a selection process, including any necessary checks for the provision of services, Dexian, as data controller, is authorized to make decisions regarding the processing and to carry out the processing of the following CONTRACTOR's personal data:</p>
+                <ul>
+                    <li>Entity Name.</li>
+                    <li>Tax ID.</li>
+                    <li>Financial results.</li>
+                    <li>Shareholders full name.</li>
+                    <li>Shareholders date of birth.</li>
+                    <li>Shareholders tax ID and image.</li>
+                    <li>Number and image of the Register of Individuals (CPF).</li>
+                    <li>Number and image of the National Driver's License (CNH).</li>
+                    <li>3x4 photography.</li>
+                    <li>Marital status.</li>
+                    <li>Level of education or education.</li>
+                    <li>Full address.</li>
+                    <li>Phone numbers, WhatsApp and email addresses.</li>
+                    <li>Bank, branch and bank account number.</li>
+                    <li>Brand, number, validity and credit card code corporate.</li>
+                    <li>Specific username and password for using the Controller services.</li>
+                    <li>Communication, verbal and written, maintained between the Holder and the Controller.</li>
+                    <li>Passport number and image.</li>
+                    <li>Professional resume.</li>
+                    <li>Criminal Records</li>
+                    <li>Relative's names.</li>
+                    <li>Other data informed of free, conscious and manifest will by the contractor, which may directly or indirectly identify the people related to the data.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row no-border">
+            <div class="br-col">
+                <h2>III - DO COMPARTILHAMENTO DE DADOS</h2>
+                <p>3.1. Fica autorizado pelo prestador de serviços que a Dexian poderá compartilhar os dados pessoais coletados, quando estritamente necessário para a execução da homologação de parceiros de negócio, ou para demais setores internos da empresa para: a) liberar acesso (físico ou virtual); b) antecipar cadastro no setor de compras e c) para futuras oportunidades de prestação de serviços, respeitando ainda os casos específicos de confidencialidade dos dados compartilhados. Na hipótese de qualquer transferência que fuja o escopo inicial do trabalho contratado/finalidade, um novo consentimento poderá ser solicitado, assim como as novas informações do tratamento serão informadas.</p>
+            </div>
+            <div class="us-col">
+                <h2>III - DATA SHARING</h2>
+                <p>3.1. The CONTRACTOR authorizes that Dexian may share the personal data collected, when strictly necessary for validating a contractor/service provider purposes, or sharing with other internal departments of the company for the purposes of: (a) granting access (physical or virtual); (b) facilitating pre-registration; and (c) consideration for future business opportunities, ensuring the confidentiality of the shared data. In the event of any transfer that falls outside the initial scope of the contracted services, a new consent may be requested, as well as the new treatment information will be informed.</p>
+            </div>
+        </div>
+
+        <footer class="page-footer">
+            <div class="footer-left">
+                <div class="footer-row">Recursos Humanos. <span class="footer-sep">|</span></div>
+                <div class="footer-row">dexian.com <span class="footer-sep">|</span></div>
+            </div>
+            <div class="footer-page">pag 2/4</div>
+        </footer>
+    </div>
+
+    <!-- PÁGINA 3 -->
+    <div class="a4-page">
+        <div class="row">
+            <div class="br-col">
+                <h2>IV - DA SEGURANÇA DOS DADOS E TÉRMINO DO TRATAMENTO DE DADOS</h2>
+                <p>4.1. A DEXIAN se responsabiliza pela manutenção de medidas de segurança, técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito, bem como em mitigar eventual incidente que possa ocorrer.</p>
+                <p>4.2. Em conformidade ao art. 48 da Lei nº 13.709, a DEXIAN comunicará ao TITULAR e à Autoridade Nacional de Proteção de Dados (ANPD) a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante ao respectivo titular dos dados.</p>
+                <p>4.3. O Controlador poderá manter e tratar os dados pessoais do Titular durante todo o período em que os mesmos forem pertinentes ao alcance das finalidades listadas neste termo e nas respectivas bases legais. Dados pessoais anonimizados, sem possibilidade de associação ao indivíduo, poderão ser mantidos por período indefinido.</p>
+                <p>4.4. O Titular poderá solicitar via e-mail ou correspondência ao Controlador, a qualquer momento, que sejam eliminados os dados pessoais não anonimizados do Titular. O Titular fica ciente de que poderá ser inviável ao Controlador continuar o fornecimento de produtos ou serviços ao Titular a partir da eliminação dos dados pessoais, bem como de que alguns dados e documentos não serão excluídos por força de Lei, em razão da necessidade de guarda estipulada em legislação vigente.</p>
+            </div>
+            <div class="us-col">
+                <h2>IV - DATA SECURITY AND END OF DATA PROCESSING</h2>
+                <p>4.1. DEXIAN is responsible for maintaining security, technical and administrative measures capable of protecting personal data from unauthorized access and from accidental or unlawful situations of destruction, loss, alteration, communication or any form of inappropriate or unlawful treatment, as well as to mitigate any incident that may occur.</p>
+                <p>4.2. Pursuant to art. 48 of Law No. 13.709, DEXIAN will notify the CONTRACTOR and the National Data Protection Authority (ANPD) of the occurrence of a security incident that may cause relevant risk or damage to the respective data subject.</p>
+                <p>4.3. The Controller may keep and process the Holder's personal data throughout the period in which they are relevant to the achievement of the purposes listed in this term. Anonymized personal data, without the possibility of association with the individual, may be kept for an indefinite period.</p>
+                <p>4.4. The CONTRACTOR may request via e-mail or correspondence to the Controller, at any time, that the Holder's non-anonymized personal data be deleted. The Holder is aware that it may be impracticable for the Controller to continue providing products or services to the Holder after the deletion of personal data, as well as that some data and documents will not be deleted by force of law, due to the need for safekeeping stipulated in current legislation.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="br-col">
+                <h2>V - DA POSSIBILIDADE DE REVOGAÇÃO DO CONSENTIMENTO</h2>
+                <p>5.1. O consentimento estabelecido por força do presente termo, poderá ser revogado pelo TITULAR, a qualquer momento, mediante solicitação formal via e-mail ou correspondência a DEXIAN.</p>
+                <p>5.2. Fica o TITULAR ciente que, a revogação em comento poderá inviabilizar realização de serviços realizados entre as partes.</p>
+                <p>5.3. Como mencionado no item 4.4, somente serão excluídos ou anonimizados os dados em que a sua guarda não seja estipulada pelo ordenamento jurídico.</p>
+            </div>
+            <div class="us-col">
+                <h2>V - THE POSSIBILITY OF REVOCATION OF THE AGREEMENT</h2>
+                <p>5.1. The consent established under this term may be revoked by the CONTRACTOR, at any time, upon formal request via email or correspondence to DEXIAN.</p>
+                <p>5.2. The CONTRACTOR is aware that the revocation in comment may make it unfeasible to perform services performed between the parties.</p>
+                <p>5.3. As mentioned in item 4.4, only data in which its custody is not stipulated by the legal system will be deleted or anonymized.</p>
+            </div>
+        </div>
+
+        <div class="row no-border">
+            <div class="br-col">
+                <h2>VI - DISPOSIÇÕES FINAIS</h2>
+                <p>6.1. Além das disposições constantes no presente termo, as PARTES deverão atentar-se para os procedimentos para redução de risco e de segurança da informação, dispostas nos canais, documentos e treinamentos disponibilizados pela DEXIAN.</p>
+                <p>6.2. Mesmo em atendimento na modalidade home office, os procedimentos de segurança, confidencialidade e sigilo deverão ser mantidos com estrita observância das regras internas.</p>
+            </div>
+            <div class="us-col">
+                <h2>VI - FINAL PROVISIONS</h2>
+                <p>6.1. In addition to the provisions contained in this term, the PARTIES shall pay attention to the procedures for risk reduction and information security, provided for in the channels, documents and training provided by DEXIAN.</p>
+                <p>6.2. Even in home office service, confidentiality and security, confidentiality procedures must be maintained in strict compliance with internal rules.</p>
+            </div>
+        </div>
+
+        <footer class="page-footer">
+            <div class="footer-left">
+                <div class="footer-row">Recursos Humanos. <span class="footer-sep">|</span></div>
+                <div class="footer-row">dexian.com <span class="footer-sep">|</span></div>
+            </div>
+            <div class="footer-page">pag 3/4</div>
+        </footer>
+    </div>
+
+    <!-- PÁGINA 4 -->
+    <div class="a4-page">
+        <div class="row">
+            <div class="br-col">
+                <p>6.3. A DEXIAN poderá manter e processar os dados pessoais do TITULAR pelo período necessário para o devido cumprimento da finalidade em comento, inclusive para futuras oportunidades de prestação de serviços.</p>
+                <p>6.4. As partes, inclusive suas respectivas testemunhas, reconhecem a forma de contratação por meios eletrônicos, digitais e informáticos como válida e plenamente eficaz, ainda que seja estabelecida com a assinatura eletrônica ou certificação fora dos padrões ICP-BRASIL, conforme disposto pelo Art. 10 da Medida Provisória n.º 2.200/2001 em vigor no Brasil.</p>
+            </div>
+            <div class="us-col">
+                <p>6.3. DEXIAN may keep and process the CONTRACTOR's personal data throughout the period in which they are relevant to the achievement of the purposes listed in this term, and for future service opportunities.</p>
+                <p>6.4. The parties, including their respective witnesses, recognize the form of contracting by electronic, digital and computer means as valid and fully effective, even if it is established with the electronic signature or certification outside the ICP-BRAZIL standards, as provided for in Article 10 of Provisional Measure No. 2200/2001 in force in Brazil.</p>
+            </div>
+        </div>
+        
+        <div class="row sig-section no-border">
+            <div class="br-col">
+                <p>Data: <input type="text" id="date-br" readonly style="width: 120px; text-align: center; font-weight: bold; border:none; border-bottom: 1px solid #333; background: transparent;"></p>
+                <div class="sig-line">DEXIAN DO BRASIL SERVIÇOS DE TECNOLOGIA LTDA.</div>
+                <div class="sig-line">
+                    <input type="text" class="sync-entity" placeholder="[RAZÃO SOCIAL]" style="text-align: center; font-weight: bold; width: 100%; background: transparent; border: none; font-size: 11.5px;">
+                </div>
+                
+                <h3 style="text-align: left; margin-top: 40px; color: #668000;">Testemunhas:</h3>
+                <div class="form-group">
+                    <label>Nome:</label>
+                    <input type="text" class="sync-wit1-name">
+                </div>
+                <div class="form-group">
+                    <label>CPF:</label>
+                    <input type="text" class="sync-wit1-id">
+                </div>
+                
+                <div class="form-group" style="margin-top: 20px;">
+                    <label>Nome:</label>
+                    <input type="text" class="sync-wit2-name">
+                </div>
+                <div class="form-group">
+                    <label>CPF:</label>
+                    <input type="text" class="sync-wit2-id">
+                </div>
+            </div>
+            
+            <div class="us-col">
+                <p>Date: <input type="text" id="date-us" readonly style="width: 120px; text-align: center; font-weight: bold; border:none; border-bottom: 1px solid #333; background: transparent;"></p>
+                <div class="sig-line">DEXIAN DO BRASIL SERVIÇOS DE TECNOLOGIA LTDA.</div>
+                <div class="sig-line">
+                    <input type="text" class="sync-entity" placeholder="[CONTRACTOR'S ENTITY NAME]" style="text-align: center; font-weight: bold; width: 100%; background: transparent; border: none; font-size: 11.5px;">
+                </div>
+                
+                <h3 style="text-align: left; margin-top: 40px; color: #668000;">Witnesses:</h3>
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input type="text" class="sync-wit1-name">
+                </div>
+                <div class="form-group">
+                    <label>ID:</label>
+                    <input type="text" class="sync-wit1-id">
+                </div>
+                
+                <div class="form-group" style="margin-top: 20px;">
+                    <label>Name:</label>
+                    <input type="text" class="sync-wit2-name">
+                </div>
+                <div class="form-group">
+                    <label>ID:</label>
+                    <input type="text" class="sync-wit2-id">
+                </div>
+            </div>
+        </div>
+
+        <footer class="page-footer">
+            <div class="footer-left">
+                <div class="footer-row">Recursos Humanos. <span class="footer-sep">|</span></div>
+                <div class="footer-row">dexian.com <span class="footer-sep">|</span></div>
+            </div>
+            <div class="footer-page">pag 4/4</div>
+        </footer>
+    </div>
+
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const today = new Date();
+        const brDate = today.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric' });
+        const usDate = today.toLocaleDateString('en-US', { day: '2-digit', month: '2-digit', year: 'numeric' });
+        
+        document.getElementById('date-br').value = brDate;
+        document.getElementById('date-us').value = usDate;
+
+        const syncGroups = [
+            'sync-entity',
+            'sync-cnpj',
+            'sync-addr',
+            'sync-wit1-name',
+            'sync-wit1-id',
+            'sync-wit2-name',
+            'sync-wit2-id'
+        ];
+        
+        syncGroups.forEach(groupClass => {
+            const elements = document.querySelectorAll('.' + groupClass);
+            elements.forEach(el => {
+                el.addEventListener('input', function() {
+                    const val = this.value;
+                    elements.forEach(target => {
+                        if (target !== this) {
+                            target.value = val;
+                        }
+                    });
+                });
+            });
+        });
+    });
+</script>
+</body>
+</html>
